@@ -1,5 +1,5 @@
 {
-  "name": "docker-sass-react-ts-bolierplate",
+  "name": "react-minimum-boilerplate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "web-vitals": "^3.3.0"
   },
   "scripts": {
-    "start": "serve -s build -l tcp://0.0.0.0:3000",
+    "start": "yarn build && serve -s build -l tcp://0.0.0.0:3000",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
